@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    width: 100vw;
+    height: 35vh;
+    background: linear-gradient(to right, #574AE8, #3EA1DB);
+    display: flex;
+    flex-direction: column;
+}
+
+.Text {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Text p{
+    margin-top: 30px;
+}
+
+.Input{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.Input input{
+    width: 750px;
+    height: 40px;
+    padding: 10px;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    border: none;
+    color: white;
+    padding-left: 60px;
+    margin-right: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.Input input::placeholder{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.Icon{
+    color: white;
+    position: relative;
+    left: 43px;
+    top: 15px;
+}
